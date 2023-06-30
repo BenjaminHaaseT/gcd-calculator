@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GCD Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>GCD/LCM Calculator</h1>
+    </header>
+    <section id="calculator">
+      <h2>Enter Two Integers</h2>
+      <div id="calculator-content">
+        <form id="calculator-input">
+          <ul id="calculator-input-list">
+            <li>
+              <label for="integer-a">a:</label>
+              <input type="number" class="integer-input" id="integer-a" />
+            </li>
+            <li>
+              <label for="integer-b">b:</label>
+              <input type="number" class="integer-input" id="integer-b" />
+            </li>
+          </ul>
+          <ul id="calculator-btn-container">
+            <li class="btn-container-elm">
+              <button class="calculator__btn" id="gcd-btn">GCD</button>
+              <p id="gcd-output">GCD:</p>
+            </li>
+            <li class="btn-container-elm">
+              <button class="calculator__btn" id="lcm-btn">LCM</button>
+              <p id="lcm-output">LCM:</p>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
