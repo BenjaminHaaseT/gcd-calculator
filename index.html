@@ -21,28 +21,26 @@
     <section id="calculator">
       <h2>Enter Two Integers</h2>
       <div id="calculator-content">
-        <form id="calculator-input">
-          <ul id="calculator-input-list">
-            <li>
-              <label for="integer-a">a:</label>
-              <input type="number" class="integer-input" id="integer-a" />
-            </li>
-            <li>
-              <label for="integer-b">b:</label>
-              <input type="number" class="integer-input" id="integer-b" />
-            </li>
-          </ul>
-          <ul id="calculator-btn-container">
-            <li class="btn-container-elm">
-              <button class="calculator__btn" id="gcd-btn">GCD</button>
-              <p id="gcd-output" class="visible">GCD:</p>
-            </li>
-            <li class="btn-container-elm">
-              <button class="calculator__btn" id="lcm-btn">LCM</button>
-              <p id="lcm-output" class="visible">LCM:</p>
-            </li>
-          </ul>
-        </form>
+        <ul id="calculator-input-list">
+          <li>
+            <label for="integer-a">a:</label>
+            <input type="number" class="integer-input" id="integer-a" />
+          </li>
+          <li>
+            <label for="integer-b">b:</label>
+            <input type="number" class="integer-input" id="integer-b" />
+          </li>
+        </ul>
+        <ul id="calculator-btn-container">
+          <li class="btn-container-elm">
+            <button class="calculator__btn" id="gcd-btn">GCD</button>
+            <p id="gcd-output" class="invisible"></p>
+          </li>
+          <li class="btn-container-elm">
+            <button class="calculator__btn" id="lcm-btn">LCM</button>
+            <p id="lcm-output" class="invisible"></p>
+          </li>
+        </ul>
       </div>
     </section>
   </body>

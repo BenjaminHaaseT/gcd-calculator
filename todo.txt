@@ -1,0 +1,4 @@
+-Add event listeners to buttons
+    *Write functions to parse/validate input from input fields
+    *then display data via DOM
+    * Maybe include a little animations?

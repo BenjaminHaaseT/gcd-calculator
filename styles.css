@@ -106,11 +106,10 @@ header h1 {
     background-color:rgb(48, 48, 151);
 }
 
-.visible {
-    display: inline-block;
-}
-
 .invisible {
     display: none;
 }
 
+.visible {
+    display: inline-block;
+}
